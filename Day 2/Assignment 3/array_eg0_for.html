@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <script>
+        var cars = ["BMW", "Volvo", "Saab", "Ford"];
+        var i = 0;
+        function xyz() {
+            var len = cars.length;
+            if (i<len) {
+
+            document.getElementById("demo").innerHTML += cars[i] + "<br>";
+            i++;
+            }
+            
+            
+        }
+
+        function myfun() {
+            setInterval(xyz, 2000);
+        }
+    </script>
+</head>
+
+<body onload="myfun()">
+
+    <p id="demo"></p>
+
+
+    <!-- <input type="button" value="Click here" onClick="xyz()" /> -->
+</body>
+
+</html>

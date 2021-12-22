@@ -1,0 +1,18 @@
+Day 12:
+Week 3 Day 2:
+    
+#1. print fibonacci series using Javascript, until the number input as text.
+a) using iteration
+b) using recursion
+
+
+#2. Assume there are multiple hobbies check boxes, when one or more are selected, and Done Button is selected, display coma delimited selected hobbies in alert box
+
+
+#3. In array_eg0_for.html, use setInterval, to display each array element with 2 seconds delay?
+
+
+#4. analyse confirm dialog
+
+
+#5. In json_eg.html, convert JSON string to js object, then change lastName of Anna to Xyz, and now convert js object, to string, and then print in console.

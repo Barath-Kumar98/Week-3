@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+function sayHello()
+{
+var txt;
+var r = confirm("Press a button");
+
+if(r==true){
+alert("You pressed OK");
+}
+else{
+alert("You pressed Cancel");
+}
+}
+
+
+</script>
+</head>
+<body>
+<p>Click the following button to call the function</p>
+<form>
+<input type="button" onclick="sayHello()" value="Say Hello">
+</form>
+</body>
+</html>

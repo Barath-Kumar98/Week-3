@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <script>
+        function print() {
+            var v1 = document.getElementById("v1");
+            var v2 = document.getElementById("v2");
+            var v3 = document.getElementById("v3");
+
+            
+            var element = document.getElementById("demo");
+            if(v1.checked == true) {
+                element.innerHTML += v1.value + ", ";
+            }
+            if(v2.checked == true) {
+                element.innerHTML += v2.value + ", ";
+            }
+            if(v3.checked == true) {
+                element.innerHTML += v3.value + ", ";
+            }
+        }
+
+       
+    </script>
+
+</head>
+
+<body>
+
+    <input type="checkbox" id="v1" name="v1" value="Movies">
+    <label for="v1"> Movies</label><br>
+    <input type="checkbox" id="v2" name="v2" value="Drawing">
+    <label for="v2"> Drawing</label><br>
+    <input type="checkbox" id="v3" name="v3" value="Swimming">
+    <label for="v3"> Swimming</label><br>
+ 
+
+    <div id="demo"></div>
+
+    <input type="button" id="btn1" value="ADD" onclick="print()" />
+</body>
+
+</html>
