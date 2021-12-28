@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            background-color: #96D4D4;
+        }
+
+        .xyz {
+            border-style: solid;
+            border-color: blueviolet;
+            background-color: cornflowerblue;
+            color: white;
+        }
+    </style>
+    <script>
+        function fun() {
+            var xhttp = new XMLHttpRequest();
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    var obj = JSON.parse(xhttp.responseText);
+
+                    var text = "<tr><th>ID</th> <th>NAME</th><th>EMAIL</th><th>STATUS</th></tr>";
+
+                    for (i = 0; i < 20; i++) {
+                        text += "<tr><td>" + obj.data[i].id + "</td> <td>" + obj.data[i].name + "</td><td>" + obj.data[i].email + "</td><td>" + obj.data[i].status + "</td></tr>"
+                    }
+
+                    document.getElementById("demo").innerHTML = text;
+                }
+            }
+            xhttp.open("GET", "https://gorest.co.in/public/v1/users", true);
+            xhttp.send();
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <p>Below content from API</p>
+    <table id="demo"></table>
+
+    <input type="button" id="btn1" value="CALL" class="xyz" onclick="fun()" />
+</body>
+
+</html>

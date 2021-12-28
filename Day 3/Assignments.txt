@@ -1,0 +1,13 @@
+Day 12:
+Week 3 Day 3:
+
+
+#1. Dynamically remove an HTML element from DOM, on button click or timeout?
+
+#2. In given XMLHttpRequest example, add email and status columns with border?
+
+#3. Can we apply two different style classes to an html element, please share code for the same
+
+#4. In Angular app Component provided, add decrement functionality
+
+#5. IN POpulating radio buttons Angular example, make necessary changes to add price, use check noxes instead of radio buttons, display sum of prices of selected products(one or more).

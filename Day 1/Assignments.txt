@@ -1,0 +1,7 @@
+Day 11:
+Week 3 Day 1:
+#1. Create a URL /agent/createuser, and ensure that only AGENT role can access above URL?
+
+#2. Create a LoanService and let only MANAGER access approveloan() method in LoanService. Corresponding URL can be provided from BankController?
+
+#3. Make requried changes in JWT example, so that validity time can be specified by client(either using Header or Pathvariable), also see that there is upper limit of validity time.
