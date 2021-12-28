@@ -1,0 +1,21 @@
+Day 14:
+Week 3 Day 4:
+
+#1. In given Custom pipe example, make changes so that you can display list of matching and non matching elements separately?
+
+ 
+
+#2. In @Input example shared, make changes to accept one more @Input variable(finalValue) from Parent component. ANd make changes in Sample Component so that value is reset to initialValue when finalValue is exceeded 
+
+ 
+
+#3. To Angular routing example, add Contact Us to Router links.
+
+ 
+
+#4. From Angular application use HttpClient to invoke REST API, to retrieve list of tickets from Spring Boot application, and display ticket details in a table(on web page)?
+
+
+
+
+
